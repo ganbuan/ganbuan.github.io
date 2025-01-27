@@ -1,0 +1,62 @@
+# Site Settings
+baseurl: ""
+url : "https://ganbuan.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Gan Buan
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/gan.jpg
+    username : Gan Buan
+    description : Welcome! I am a previous finance analyst that is transitioning into the technology sector, with a strong interest in cybersecurity. In a few months, I will be completing my Masters degree in IT. This is my story told in the form of a personal portfolio.
+    experience :
+      - start : Sep 2023
+        end : Present
+        experience : Doyalson Springs Golf Range, Shop Manager
+      - start : Sep 2019
+        end : Jun 2023
+        experience : Self-Employed, Stock Trader
+      - start : Mar 2018
+        end : Jul 2018
+        experience : Ayala Land Premier, Property Specialist
+      - start : Feb 2017
+        end : Jan 2018
+        experience : Nasdaq, Advisory Analyst
+    skills : 
+      - skill : Java, C#, Python, SQL
+        #value : 85  # Percent value
+      - skill : Windows, Linux
+      - skill : Network Administration & Security, WireShark
+      - skill : Log Analysis, SIEM - Elastic Stack
+      - skill : Burp Suite
+
+  # Icons
+  icons :
+    email:  # Full email address, e.g. "sample@google.com"
+    linkedin:  https://www.linkedin.com/in/legrandbuan/
+    github: ganbuan
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
