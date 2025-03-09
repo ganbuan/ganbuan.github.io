@@ -1,0 +1,37 @@
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  # Full URL
+    image : "university-marketplace-webbapp-a.jpg" # path: assets/project/
+    date : 2024.08 - 2024.11
+    title : University Marketplace
+    summary : A web application for University students and staff to buy and sell goods and services, similar to Gumtree and Facebook Marketplace.
+    description : Along with three colleagues, this project was done as part of the capstone unit for the MIT program in University of Newcastle. The web app was written primarily with C# using the ASP.NET framework. 
+    contents :
+        - title : 1. Posted items page
+          image : university-marketplace-webbapp-d.jpg
+          description : <li>Ads created by users are displayed here. Designed with a simple layour for easy browsing. Buttons are available for item details and buying.</li>
+        - title : 2. Create ad form
+          image : university-marketplace-webbapp-b.jpg
+          description : <li>Simple and easy-to-use web form for sellers to post items, services, or donations.</li> 
+        - title : 3. Create order form
+          image : university-marketplace-webbapp-c.jpg
+          description : <li>Web form used by buyers to express interest in a posted item or service.</li>
+        - title : 4. User profiles
+          image : university-marketplace-webbapp-e.jpg
+          description : <li>Users can edit profile information, if needed.</li>
+        - title : 5. Admin roles
+          image : university-marketplace-webbapp-f.jpg
+          description : <li>Admin users have access to the manage tab where they can see reported listings, activate or deactivate users, and respond to site enquiries.</li>
+  
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  # Full URL
+    image : "literature-review-2024.png" # path: assets/project/
+    date : 2024.08 - 2025.01
+    title : Literature Review - Use of AI in Automation of Penetration Testing
+    summary : A literature review summarising the current research body on the use of AI in penetration testing activities.
+    description : Research questions include the use of AI by malicious actors, ethical hacking using Generative AI and Reinforcement Learning models, and best practices in using AI tools in penetration testing.
+    contents :
+       
